@@ -1,0 +1,32 @@
+{
+  "name": "tayo-restaurant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tayo Restaurant & Hall — Somali cuisine, Mogadishu. Static Next.js site built from the Figma design.",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "BUILD_STATIC=1 next build",
+    "build:standalone": "next build",
+    "preview": "npx serve out"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.14",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.2",
+    "lucide-react": "^0.525.0",
+    "next": "^16.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sonner": "^2.0.6",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
